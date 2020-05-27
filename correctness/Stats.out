@@ -1,0 +1,72 @@
+
+
+
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+      0.0       2.0       4.0      27.1      10.0 2359296.0 
+standard deviation: 2710.783
+
+
+null device 
+          1 
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+3.700e+01 9.476e+07 2.057e+08 1.262e+09 3.741e+08 1.139e+14 
+standard deviation: 162466671087
+
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0       0       0       0       0       0 
+standard deviation: 162466671087
+
+
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+      0.0       2.0       4.0      31.4       9.0 3145728.0 
+standard deviation: 4223.47
+
+
+null device 
+          1 
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+5.800e+01 9.475e+07 2.054e+08 1.261e+09 3.736e+08 8.030e+13 
+standard deviation: 1.09102e+11
+
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0       0       0       0       0       0 
+standard deviation: 1.09102e+11
+
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  0.000   3.000   6.000   7.847  11.000  81.000 
+standard deviation: 7.343908
+
+
+null device 
+          1 
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+3.350e+02 9.040e+07 1.904e+08 2.232e+08 3.226e+08 1.022e+09 
+standard deviation: 165960442
+
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0       0       0       0       0       0 
+standard deviation: 165960442
+
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    3.00    7.00   10.29   14.00  208.00 
+standard deviation: 10.88006
+
+
+null device 
+          1 
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+3.200e+01 9.080e+07 1.909e+08 2.232e+08 3.225e+08 1.286e+09 
+standard deviation: 165225514
+
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0       0       0       0       0       0 
+standard deviation: 165225514
+
+
+[Finished in 76.9s]

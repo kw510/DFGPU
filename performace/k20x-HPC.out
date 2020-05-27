@@ -1,0 +1,127 @@
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+x86_64
+Cluster Manager v7.0
+slave
+LSB_VERSION=base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch
+Scientific Linux release 6.9 (Carbon)
+Scientific Linux release 6.9 (Carbon)
+gcc (GCC) 4.9.3
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+2.6.32-696.18.7.el6.x86_64
+ Starting...
+
+ CUDA Device Query (Runtime API) version (CUDART static linking)
+
+Detected 1 CUDA Capable device(s)
+
+Device 0: "Tesla K20Xm"
+  CUDA Driver Version / Runtime Version          9.1 / 9.0
+  CUDA Capability Major/Minor version number:    3.5
+  Total amount of global memory:                 5701 MBytes (5977800704 bytes)
+  (14) Multiprocessors, (192) CUDA Cores/MP:     2688 CUDA Cores
+  GPU Max Clock rate:                            732 MHz (0.73 GHz)
+  Memory Clock rate:                             2600 Mhz
+  Memory Bus Width:                              384-bit
+  L2 Cache Size:                                 1572864 bytes
+  Maximum Texture Dimension Size (x,y,z)         1D=(65536), 2D=(65536, 65536), 3D=(4096, 4096, 4096)
+  Maximum Layered 1D Texture Size, (num) layers  1D=(16384), 2048 layers
+  Maximum Layered 2D Texture Size, (num) layers  2D=(16384, 16384), 2048 layers
+  Total amount of constant memory:               65536 bytes
+  Total amount of shared memory per block:       49152 bytes
+  Total number of registers available per block: 65536
+  Warp size:                                     32
+  Maximum number of threads per multiprocessor:  2048
+  Maximum number of threads per block:           1024
+  Max dimension size of a thread block (x,y,z): (1024, 1024, 64)
+  Max dimension size of a grid size    (x,y,z): (2147483647, 65535, 65535)
+  Maximum memory pitch:                          2147483647 bytes
+  Texture alignment:                             512 bytes
+  Concurrent copy and kernel execution:          Yes with 2 copy engine(s)
+  Run time limit on kernels:                     No
+  Integrated GPU sharing Host Memory:            No
+  Support host page-locked memory mapping:       Yes
+  Alignment requirement for Surfaces:            Yes
+  Device has ECC support:                        Enabled
+  Device supports Unified Addressing (UVA):      Yes
+  Device supports Compute Preemption:            No
+  Supports Cooperative Kernel Launch:            No
+  Supports MultiDevice Co-op Kernel Launch:      No
+  Device PCI Domain ID / Bus ID / location ID:   0 / 3 / 0
+  Compute Mode:
+     < Default (multiple host threads can use ::cudaSetDevice() with device simultaneously) >
+
+deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 9.1, CUDA Runtime Version = 9.0, NumDevs = 1
+Result = PASS
+---
+add
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.1408176869153976
+Time of EP: 0.1500329524278641
+Time of float: 0.0791976228356361
+ULP of double:                                                                0
+ULP of EP:                                                               26
+ULP of float:                                                       3821431951
+Speed-up: 0.9385783672332764
+---
+sub
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.1408392488956451
+Time of EP: 0.1503694951534271
+Time of float: 0.0791892856359482
+ULP of double:                                                                0
+ULP of EP:                                                               55
+ULP of float:                                                        934668132
+Speed-up: 0.9366211295127869
+---
+mul
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.1408390700817108
+Time of EP: 0.1486767828464508
+Time of float: 0.0791957154870033
+ULP of double:                                                                0
+ULP of EP:                                                                7
+ULP of float:                                                        223519252
+Speed-up: 0.9472835659980774
+---
+div
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.1420827656984329
+Time of EP: 0.1605266779661179
+Time of float: 0.0881451293826103
+ULP of double:                                                                0
+ULP of EP:                                                               10
+ULP of float:                                                        223054713
+Speed-up: 0.8851037621498108
+---
+pi
+Time of double: 0.2589048147201538
+Time of EP: 0.9441496133804321
+Time of float: 0.1917994171380997
+ULP of double:                                                                0
+ULP of EP:                                                                5
+ULP of float:                                                        714237419
+Speed-up: 0.2742201089859009
+
+########################################################################
+----------------------! Balena Job Details !----------------------------
+
+JobID          : 2743063
+No. of nodes   : 1
+No. of CPUs    : 16
+Timelimit      : 00:09:00
+Elapsed time   : 00:04:56
+Nodelist       : node-dw-ngpu-002
+Energy Used    : 30318.86 Joules
+
+########################################################################
+

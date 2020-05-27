@@ -1,0 +1,98 @@
+ Starting...
+
+ CUDA Device Query (Runtime API) version (CUDART static linking)
+
+Detected 1 CUDA Capable device(s)
+
+Device 0: "GeForce GT 750M"
+  CUDA Driver Version / Runtime Version          10.1 / 9.0
+  CUDA Capability Major/Minor version number:    3.0
+  Total amount of global memory:                 2048 MBytes (2147483648 bytes)
+  ( 2) Multiprocessors, (192) CUDA Cores/MP:     384 CUDA Cores
+  GPU Max Clock rate:                            967 MHz (0.97 GHz)
+  Memory Clock rate:                             2005 Mhz
+  Memory Bus Width:                              128-bit
+  L2 Cache Size:                                 262144 bytes
+  Maximum Texture Dimension Size (x,y,z)         1D=(65536), 2D=(65536, 65536), 3D=(4096, 4096, 4096)
+  Maximum Layered 1D Texture Size, (num) layers  1D=(16384), 2048 layers
+  Maximum Layered 2D Texture Size, (num) layers  2D=(16384, 16384), 2048 layers
+  Total amount of constant memory:               65536 bytes
+  Total amount of shared memory per block:       49152 bytes
+  Total number of registers available per block: 65536
+  Warp size:                                     32
+  Maximum number of threads per multiprocessor:  2048
+  Maximum number of threads per block:           1024
+  Max dimension size of a thread block (x,y,z): (1024, 1024, 64)
+  Max dimension size of a grid size    (x,y,z): (2147483647, 65535, 65535)
+  Maximum memory pitch:                          2147483647 bytes
+  Texture alignment:                             512 bytes
+  Concurrent copy and kernel execution:          Yes with 1 copy engine(s)
+  Run time limit on kernels:                     Yes
+  Integrated GPU sharing Host Memory:            No
+  Support host page-locked memory mapping:       Yes
+  Alignment requirement for Surfaces:            Yes
+  Device has ECC support:                        Disabled
+  CUDA Device Driver Mode (TCC or WDDM):         WDDM (Windows Display Driver Model)
+  Device supports Unified Addressing (UVA):      Yes
+  Device supports Compute Preemption:            No
+  Supports Cooperative Kernel Launch:            No
+  Supports MultiDevice Co-op Kernel Launch:      No
+  Device PCI Domain ID / Bus ID / location ID:   0 / 4 / 0
+  Compute Mode:
+     < Default (multiple host threads can use ::cudaSetDevice() with device simultaneously) >
+
+deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 10.1, CUDA Runtime Version = 9.0, NumDevs = 1
+Result = PASS
+---
+add
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.4730816483497620
+Time of EP: 0.7604740858078003
+Time of float: 0.2888454198837280
+ULP of double: 0
+ULP of EP: 27
+ULP of float: 1261994780
+Speed-up: 0.6220877766609192
+---
+sub
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.4763000905513763
+Time of EP: 0.8042820096015930
+Time of float: 0.2964432537555695
+ULP of double: 0
+ULP of EP: 31
+ULP of float: 1261017584
+Speed-up: 0.5922052860260010
+---
+mul
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.4753579199314117
+Time of EP: 0.7949126362800598
+Time of float: 0.2940913140773773
+ULP of double: 0
+ULP of EP: 7
+ULP of float: 223221240
+Speed-up: 0.5980002284049988
+---
+div
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.6996535658836365
+Time of EP: 0.8694735169410706
+Time of float: 0.3559727370738983
+ULP of double: 0
+ULP of EP: 10
+ULP of float: 223165127
+Speed-up: 0.8046864867210388
+---
+pi
+Time of double: 0.5003429055213928
+Time of EP: 0.5690388083457947
+Time of float: 0.1361714452505112
+ULP of double: 0
+ULP of EP: 5
+ULP of float: 4614254404752795115
+Speed-up: 0.8792772889137268

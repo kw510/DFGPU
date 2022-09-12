@@ -1,0 +1,99 @@
+ Starting...
+
+ CUDA Device Query (Runtime API) version (CUDART static linking)
+
+Detected 1 CUDA Capable device(s)
+
+Device 0: "GeForce RTX 2060"
+  CUDA Driver Version / Runtime Version          10.2 / 10.2
+  CUDA Capability Major/Minor version number:    7.5
+  Total amount of global memory:                 6144 MBytes (6442450944 bytes)
+  (30) Multiprocessors, ( 64) CUDA Cores/MP:     1920 CUDA Cores
+  GPU Max Clock rate:                            1680 MHz (1.68 GHz)
+  Memory Clock rate:                             7001 Mhz
+  Memory Bus Width:                              192-bit
+  L2 Cache Size:                                 3145728 bytes
+  Maximum Texture Dimension Size (x,y,z)         1D=(131072), 2D=(131072, 65536), 3D=(16384, 16384, 16384)
+  Maximum Layered 1D Texture Size, (num) layers  1D=(32768), 2048 layers
+  Maximum Layered 2D Texture Size, (num) layers  2D=(32768, 32768), 2048 layers
+  Total amount of constant memory:               65536 bytes
+  Total amount of shared memory per block:       49152 bytes
+  Total number of registers available per block: 65536
+  Warp size:                                     32
+  Maximum number of threads per multiprocessor:  1024
+  Maximum number of threads per block:           1024
+  Max dimension size of a thread block (x,y,z): (1024, 1024, 64)
+  Max dimension size of a grid size    (x,y,z): (2147483647, 65535, 65535)
+  Maximum memory pitch:                          2147483647 bytes
+  Texture alignment:                             512 bytes
+  Concurrent copy and kernel execution:          Yes with 3 copy engine(s)
+  Run time limit on kernels:                     Yes
+  Integrated GPU sharing Host Memory:            No
+  Support host page-locked memory mapping:       Yes
+  Alignment requirement for Surfaces:            Yes
+  Device has ECC support:                        Disabled
+  CUDA Device Driver Mode (TCC or WDDM):         WDDM (Windows Display Driver Model)
+  Device supports Unified Addressing (UVA):      Yes
+  Device supports Compute Preemption:            Yes
+  Supports Cooperative Kernel Launch:            No
+  Supports MultiDevice Co-op Kernel Launch:      No
+  Device PCI Domain ID / Bus ID / location ID:   0 / 1 / 0
+  Compute Mode:
+     < Default (multiple host threads can use ::cudaSetDevice() with device simultaneously) >
+
+deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 10.2, CUDA Runtime Version = 10.2, NumDevs = 1
+Result = PASS
+---
+add
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.0866788476705551
+Time of EP: 0.0869287773966789
+Time of float: 0.0450889095664024
+ULP of double: 0
+ULP of EP: 27
+ULP of float: 1261994780
+Speed-up: 0.9971249103546143
+---
+sub
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.0861983969807625
+Time of EP: 0.0858250409364700
+Time of float: 0.0437695793807507
+ULP of double: 0
+ULP of EP: 31
+ULP of float: 1261017584
+Speed-up: 1.0043501853942871
+---
+mul
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.0858612209558487
+Time of EP: 0.0862203240394592
+Time of float: 0.0442059561610222
+ULP of double: 0
+ULP of EP: 7
+ULP of float: 223221240
+Speed-up: 0.9958350658416748
+---
+div
+Starting CPU operation...Finished
+Starting GPU operations...
+Time of double: 0.0901803523302078
+Time of EP: 0.0868791118264198
+Time of float: 0.0443292185664177
+ULP of double: 0
+ULP of EP: 10
+ULP of float: 223165127
+Speed-up: 1.0379980802536011
+---
+pi
+Time of double: 0.2123280018568039
+Time of EP: 0.1878193020820618
+Time of float: 0.0499298498034477
+ULP of double: 0
+ULP of EP: 5
+ULP of float: 4614254404752795115
+Speed-up: 1.1304908990859985
+Press any key to continue . . .
